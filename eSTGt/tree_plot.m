@@ -392,6 +392,7 @@ for iter=1:length(group),
     if (isempty(group{iter}))
         continue;
     end
+    
     terminal_color=terminal_colors{iter};
     for i=1:length(tr.names),
         ind=find(strcmp(group{iter},tr.names{i}));
